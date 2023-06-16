@@ -1,64 +1,77 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            margin:0px;
-        }
-        #crosshair {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            width: 10px;
-            height: 10px;
-            margin-left: -5px;
-            margin-top: -5px;
-            border: 3px solid white;
-            border-radius: 50%;
-            box-sizing: border-box;
-            z-index: 1000;
-        }
-        #card {
-            transition:all 0.5s;
-            position: fixed;
-            top: 20px;
-            right: -300px;
-            width: 300px;
-            height: 120px;
-            background-color: #222;
-            padding:0px 10px;
-            font-family: calibri;
-            color:white;
-            box-sizing: border-box;
-            z-index: 1000;
-        }
-        #card.active{
-            right: 0px;
-        }
-
-        #name{
-            font-size:24px;
-            margin:10px 0px;
-        }
-    </style>
-</head>
-<body>
-    <div id="crosshair"></div>
-    <div id="card">
-        <div id="name">hello</div>
-        <div id="description"></div>
-    </div>
-    <script type="importmap">
-        {
-            "imports":{
-                "three":"./node_modules/three/build/three.module.js"
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0px;
             }
-        }
-    </script>
-    <script src="./node_modules/gsap/dist/gsap.js"></script>
-    <script type="module" src="index.js"></script>
-</body>
+            #crosshair {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                width: 10px;
+                height: 10px;
+                margin-left: -5px;
+                margin-top: -5px;
+                border: 3px solid white;
+                border-radius: 50%;
+                box-sizing: border-box;
+                z-index: 1000;
+            }
+            #card {
+                transition: all 0.5s;
+                position: fixed;
+                top: 20px;
+                right: -300px;
+                width: 300px;
+                height: 120px;
+                background-color: #222;
+                padding: 0px 10px;
+                font-family: calibri;
+                color: white;
+                box-sizing: border-box;
+                z-index: 1000;
+            }
+            #card.active {
+                right: 0px;
+            }
+
+            #name {
+                font-size: 24px;
+                margin: 10px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="crosshair"></div>
+        <div id="card">
+            <div id="name">hello</div>
+            <div id="description"></div>
+        </div>
+        <!-- <script type="importmap">
+            {
+                "imports": {
+                    "three": "./node_modules/three/build/three.module.js"
+                }
+            }
+        </script> -->
+        <script
+            async
+            src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"
+        ></script>
+
+        <script type="importmap">
+            {
+                "imports": {
+                    "three": "https://unpkg.com/three@0.153.0/build/three.module.js",
+                    "three/addons/": "https://unpkg.com/three@0.153.0/examples/jsm/"
+                }
+            }
+        </script>
+        <script src="./node_modules/gsap/dist/gsap.js"></script>
+        <script type="module" src="index.js"></script>
+    </body>
 </html>
