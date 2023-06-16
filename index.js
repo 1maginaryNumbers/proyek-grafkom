@@ -1,21 +1,21 @@
 import * as THREE from "three";
 // import * as gsap from "gsaptest";
 // import gsap from "./gsap.js";
-import { PointerLockControls } from "./node_modules/three/examples/jsm/controls/PointerLockControls.js";
-import { GLTFLoader } from "./node_modules/three/examples/jsm/loaders/GLTFLoader.js";
-import { EffectComposer } from "./node_modules/three/examples/jsm/postprocessing/EffectComposer.js";
-import { RenderPass } from "./node_modules/three/examples/jsm/postprocessing/RenderPass.js";
-import { OutlinePass } from "./node_modules/three/examples/jsm/postprocessing/OutlinePass.js";
-import { ShaderPass } from "./node_modules/three/examples/jsm/postprocessing/ShaderPass.js";
-import { CopyShader } from "./node_modules/three/examples/jsm/shaders/CopyShader.js";
+// import { PointerLockControls } from "./node_modules/three/examples/jsm/controls/PointerLockControls.js";
+// import { GLTFLoader } from "./node_modules/three/examples/jsm/loaders/GLTFLoader.js";
+// import { EffectComposer } from "./node_modules/three/examples/jsm/postprocessing/EffectComposer.js";
+// import { RenderPass } from "./node_modules/three/examples/jsm/postprocessing/RenderPass.js";
+// import { OutlinePass } from "./node_modules/three/examples/jsm/postprocessing/OutlinePass.js";
+// import { ShaderPass } from "./node_modules/three/examples/jsm/postprocessing/ShaderPass.js";
+// import { CopyShader } from "./node_modules/three/examples/jsm/shaders/CopyShader.js";
 
-// import { PointerLockControls } from "three/addons/controls/PointerLockControls.js";
-// import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
-// import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js";
-// import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
-// import { OutlinePass } from "three/addons/postprocessing/OutlinePass.js";
-// import { ShaderPass } from "three/addons/postprocessing/ShaderPass.js";
-// import { CopyShader } from "three/addons/shaders/CopyShader.js";
+import { PointerLockControls } from "three/addons/controls/PointerLockControls.js";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js";
+import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
+import { OutlinePass } from "three/addons/postprocessing/OutlinePass.js";
+import { ShaderPass } from "three/addons/postprocessing/ShaderPass.js";
+import { CopyShader } from "three/addons/shaders/CopyShader.js";
 
 const card = document.getElementById("card");
 const nameText = document.getElementById("name");
