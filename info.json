@@ -1,0 +1,92 @@
+{
+    "data":{
+        "fridge": {
+            "name": "Fridge",
+            "description": "a box to hide dead bodies",
+            "interact_method": "fridgeInteract"
+        },
+        "play_button": {
+            "name": "Youtube Play Button",
+            "description": "my greatest achievement"
+        },
+        "door": {
+            "name": "Door",
+            "description": "just a regular door",
+            "interact_method": "doorInteract"
+        },
+        "bed": {
+            "name": "Bed",
+            "description": "a place to escape reality"
+        },
+        "books": {
+            "name": "Books",
+            "description": "tool that can make you sleep instantly"
+        },
+        "cactus": {
+            "name": "Cactus",
+            "description": "ouch! it hurts"
+        },
+        "drawer": {
+            "name": "Drawer",
+            "description": "a place to hide weapons"
+        },
+        "lamp": {
+            "name": "Lamp",
+            "description": "let there be light",
+            "interact_method": "lampInteract"
+        },
+        "mat": {
+            "name": "Mat",
+            "description": "a place to hide money"
+        },
+        "room_floor": {
+            "name": "Room Floor",
+            "description": "usually covered with a material such as carpet, wood, or tiles"
+        },
+        "room_window": {
+            "name": "Window",
+            "description": "an opening in a wall or door that allows light and air to enter the room"
+        },
+        "shelf": {
+            "name": "Shelf",
+            "description": "a flat horizontal surface used for storing or displaying items"
+        },
+        "chair_1": {
+            "name": "Chair 1",
+            "description": "a piece of furniture designed for sitting on"
+        },
+        "chair_2": {
+            "name": "Chair 2",
+            "description": "another piece of furniture designed for sitting on"
+        },
+        "kitchen_floor": {
+            "name": "Kitchen Floor",
+            "description": "the lower surface of the kitchen area"
+        },
+        "kitchen_table": {
+            "name": "Kitchen Table",
+            "description": "a piece of furniture used for preparing and serving food in the kitchen"
+        },
+        "kitchen_window": {
+            "name": "Kitchen Window",
+            "description": "an opening in the kitchen wall or door that provides a view outside and allows natural light to enter"
+        },
+        "monkey_head": {
+            "name": "Monkey Head",
+            "description": "RIP"
+        },
+        "stove": {
+            "name": "Stove",
+            "description": "let's burn all the evidences",
+            "interact_method": "stoveInteract"
+        },
+        "table": {
+            "name": "Table",
+            "description": "just a normal table"
+        },
+        "wall": {
+            "name": "Wall",
+            "description": "invented by Trump"
+        }
+    }
+}
